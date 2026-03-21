@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TR MOIC - Delege Başvurusu</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="subpage-body">
+  <div class="page-shell">
+    <nav class="navbar inner-navbar" id="navbar">
+      <a href="index.html" class="brand" aria-label="TR MOIC">
+        <img src="logo.png" alt="TR MOIC Logo" class="brand-logo" />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç/kapat">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-right">
+        <ul class="nav-links" id="navLinks">
+          <li class="nav-item has-dropdown">
+            <a href="about.html">Hakkında</a>
+            <div class="dropdown-menu">
+              <a href="ufsm.html">UFSM AİHL Nedir</a>
+              <a href="moic.html">MOIC Nedir</a>
+              <a href="sponsor-handbook.html">Sponsor El Kitabı</a>
+              <a href="delegate-handbook.html">Delege El Kitabı</a>
+            </div>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a href="committees.html">Komiteler</a>
+            <div class="dropdown-menu">
+              <a href="#">Türkçe Komitesi</a>
+              <a href="#">Arapça Komitesi</a>
+              <a href="#">İngilizce Komitesi</a>
+            </div>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a href="applications.html" class="nav-active-link">Başvuru</a>
+            <div class="dropdown-menu">
+              <a href="organization-application.html">Organizasyon Başvuruları</a>
+              <a href="delegate-application.html" class="nav-active-link">Delege Başvuruları</a>
+            </div>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a href="program.html">Program</a>
+            <div class="dropdown-menu">
+              <a href="awards.html">Ödüller</a>
+              <a href="program-flow.html">Program Akışı</a>
+              <a href="rules.html">Şartlar ve Kurallar</a>
+              <a href="sponsors.html">Sponsorlar</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="contact.html">İletişim</a>
+          </li>
+        </ul>
+
+        <div class="language-switcher">
+          <label for="languageSelect" class="sr-only">Dil seç</label>
+          <select id="languageSelect" class="language-select" aria-label="Dil seç">
+            <option value="tr">Türkçe</option>
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+
+    <main class="application-page">
+      <section class="application-hero">
+        <div class="application-hero-inner">
+          <p class="section-tag">TR MOIC / Başvuru</p>
+          <h1>Delege Başvurusu</h1>
+          <p class="application-hero-text">
+            TR MOIC’e delege olarak katılmak isteyen öğrenciler için başvuru süreci burada yer almaktadır.
+            Aşağıdaki form ve bilgilendirme alanı üzerinden süreci takip edebilirsiniz.
+          </p>
+
+          <div class="application-hero-badges">
+            <span>Ücretsiz Başvuru</span>
+            <span>Öğrenci Odaklı</span>
+            <span>Akademik Deneyim</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="application-overview">
+        <div class="application-info-card application-info-card-accent">
+          <p class="application-card-kicker">Başvuru Hakkında</p>
+          <h2>Neden delege olmalısınız?</h2>
+          <p>
+            Delege olarak katılan öğrenciler; hitabet, temsil, araştırma, diplomasi ve müzakere becerilerini
+            geliştirirken aynı zamanda uluslararası meseleleri çok yönlü düşünme fırsatı elde ederler.
+          </p>
+        </div>
+
+        <div class="application-mini-grid">
+          <div class="application-mini-card">
+            <span class="mini-card-title">Başvuru Türü</span>
+            <strong>Bireysel Delege</strong>
+            <p>Öğrenciler bireysel başvuru yapabilir.</p>
+          </div>
+
+          <div class="application-mini-card">
+            <span class="mini-card-title">Kayıt Ücreti</span>
+            <strong>Ücret Bulunmamaktadır</strong>
+            <p>Başvuru süreci şu an ücretsizdir.</p>
+          </div>
+
+          <div class="application-mini-card">
+            <span class="mini-card-title">Uygunluk</span>
+            <strong>Lise Düzeyi Katılım</strong>
+            <p>Konferans lise öğrencilerine yöneliktir.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="application-layout">
+        <aside class="application-sidebar">
+          <div class="application-sidebar-card">
+            <p class="application-card-kicker">Süreç</p>
+            <h3>Başvuru adımları</h3>
+            <ol class="application-steps">
+              <li>Formu eksiksiz doldurun.</li>
+              <li>Akademik ilgi alanınızı belirtin.</li>
+              <li>Komite tercihlerinizi seçin.</li>
+              <li>Değerlendirme sonucunu bekleyin.</li>
+            </ol>
+          </div>
+
+          <div class="application-sidebar-card">
+            <p class="application-card-kicker">Not</p>
+            <h3>Önemli Bilgilendirme</h3>
+            <p>
+              Başvuru formu şu an ön yüz tasarımı olarak hazırlanmıştır.
+              Gerçek başvuru sistemi daha sonra aktif hale getirilecektir.
+            </p>
+          </div>
+        </aside>
+
+        <section class="application-form-card">
+          <div class="application-form-head">
+            <p class="section-tag">Başvuru Formu</p>
+            <h2>Delege Bilgileri</h2>
+            <p>
+              Aşağıdaki alanları dikkatlice doldurarak başvuru sürecinizi başlatabilirsiniz.
+            </p>
+          </div>
+
+          <form class="application-form">
+            <div class="form-grid">
+              <div class="field">
+                <label for="fullName">Ad Soyad</label>
+                <input id="fullName" type="text" placeholder="Ad Soyad" />
+              </div>
+
+              <div class="field">
+                <label for="email">E-posta</label>
+                <input id="email" type="email" placeholder="ornek@mail.com" />
+              </div>
+
+              <div class="field">
+                <label for="school">Okul</label>
+                <input id="school" type="text" placeholder="Okul adı" />
+              </div>
+
+              <div class="field">
+                <label for="grade">Sınıf</label>
+                <select id="grade">
+                  <option>9. Sınıf</option>
+                  <option>10. Sınıf</option>
+                  <option>11. Sınıf</option>
+                  <option>12. Sınıf</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="committee1">Komite Seçimi</label>
+                <select id="committee1">
+                  <option>Türkçe Komitesi</option>
+                  <option>İngilizce Komitesi</option>
+                  <option>Arapça Komitesi</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field field-full">
+              <label for="motivation">Neden katılmak istiyorsunuz?</label>
+              <textarea id="motivation" rows="6" placeholder="Kısa bir motivasyon yazısı yazın..."></textarea>
+            </div>
+
+            <div class="field field-full">
+              <label for="experience">Varsa deneyimleriniz</label>
+              <textarea id="experience" rows="5" placeholder="Daha önce katıldığınız etkinlikler veya deneyimleriniz..."></textarea>
+            </div>
+
+            <div class="form-actions form-actions-split">
+              <p class="form-note">Başvuru sistemi şu an sadece tasarım aşamasındadır.</p>
+              <button type="button" class="btn btn-primary form-btn">Delege Başvurusu Gönder</button>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="logo.png" alt="TR MOIC Logo" class="footer-logo" />
+          <h3>TR Model Of Islamic Cooperation</h3>
+          <p>
+            Uluslararası Fatih Sultan Mehmet Anadolu İmam Hatip Lisesi'nin ilk MOIC oturumu için
+            oluşturulan resmi konferans sayfası.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Hızlı Erişim</h4>
+          <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="ufsm.html">UFSM AİHL</a></li>
+            <li><a href="moic.html">MOIC Nedir?</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>İletişim</h4>
+          <ul>
+            <li>📧 info@trmoic.org</li>
+            <li>📍 İstanbul, Türkiye</li>
+            <li>📞 +90 5xx xxx xx xx</li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Sosyal Medya</h4>
+          <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">E-posta</a>
+            <a href="#">Konum</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 TR MOIC. Tüm hakları saklıdır.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

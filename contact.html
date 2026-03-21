@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>TR MOIC - İletişim</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body class="contact-page-body">
+  <div class="page-shell">
+    <nav class="navbar inner-navbar" id="navbar">
+      <a href="index.html" class="brand" aria-label="TR MOIC">
+        <img src="logo.png" alt="TR MOIC Logo" class="brand-logo" />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç/kapat">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-right">
+        <ul class="nav-links" id="navLinks">
+          <li class="nav-item has-dropdown">
+            <a href="index.html">Hakkında</a>
+            <div class="dropdown-menu">
+              <a href="ufsm.html">UFSM AİHL Nedir</a>
+              <a href="moic.html">MOIC Nedir</a>
+              <a href="sponsor-handbook.html">Sponsor El Kitabı</a>
+              <a href="delegate-handbook.html">Delege El Kitabı</a>
+            </div>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a href="committees.html">Komiteler</a>
+            <div class="dropdown-menu">
+              <a href="#">Türkçe Komitesi</a>
+              <a href="#">Arapça Komitesi</a>
+              <a href="#">İngilizce Komitesi</a>
+            </div>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a href="applications.html">Başvuru</a>
+            <div class="dropdown-menu">
+              <a href="organization-application.html">Organizasyon Başvuruları</a>
+              <a href="delegate-application.html">Delege Başvuruları</a>
+            </div>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a href="program.html">Program</a>
+            <div class="dropdown-menu">
+              <a href="awards.html">Ödüller</a>
+              <a href="program-flow.html">Program Akışı</a>
+              <a href="rules.html">Şartlar ve Kurallar</a>
+              <a href="sponsors.html">Sponsorlar</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="contact.html" class="nav-active-link">İletişim</a>
+          </li>
+        </ul>
+
+        <div class="language-switcher">
+          <label for="languageSelect" class="sr-only">Dil seç</label>
+          <select id="languageSelect" class="language-select" aria-label="Dil seç">
+            <option value="tr">Türkçe</option>
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+
+    <main class="contact-page">
+      <section class="contact-layout">
+        <aside class="contact-info-panel">
+          <div class="contact-info-card">
+            <p class="contact-info-label">TR MOIC</p>
+            <h2>Bizimle İletişime Geçin</h2>
+            <p>
+              Sponsorluk, organizasyon, delege başvuruları, öneriler veya genel
+              sorular için aşağıdaki formu kullanabilirsiniz.
+            </p>
+          </div>
+
+          <div class="contact-mini-grid">
+            <div class="contact-mini-card">
+              <span class="mini-card-title">E-posta</span>
+              <strong>info@trmoic.org</strong>
+              <p>Şimdilik örnek iletişim adresi</p>
+            </div>
+
+            <div class="contact-mini-card">
+              <span class="mini-card-title">Yanıt Süresi</span>
+              <strong>24–48 Saat</strong>
+              <p>Yoğunluğa göre değişebilir</p>
+            </div>
+
+            <div class="contact-mini-card">
+              <span class="mini-card-title">Konular</span>
+              <strong>Başvuru · Sponsorluk · Öneri</strong>
+              <p>Form üzerinden iletilebilir</p>
+            </div>
+          </div>
+        </aside>
+
+        <section class="contact-form-card contact-form-card-premium">
+          <div class="contact-form-head">
+            <p class="section-tag">TR MOIC / İletişim</p>
+            <h2>İletişim</h2>
+            <p>
+              İstek, öneri, soru veya iş birliği talepleriniz için bizimle
+              iletişime geçebilirsiniz.
+            </p>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-grid">
+              <div class="field">
+                <label for="name" data-i18n="contact.name">Ad Soyad</label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="Ad Soyad"
+                  data-i18n-placeholder="contact.name.placeholder"
+                />
+              </div>
+
+              <div class="field">
+                <label for="email" data-i18n="contact.email">E-posta</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="ornek@mail.com"
+                  data-i18n-placeholder="contact.email.placeholder"
+                />
+              </div>
+
+              <div class="field">
+                <label for="topic" data-i18n="contact.topic">Konu</label>
+                <select id="topic">
+                  <option data-i18n="contact.option.one">Genel Soru</option>
+                  <option data-i18n="contact.option.two">Şikayet</option>
+                  <option data-i18n="contact.option.three">Öneri</option>
+                  <option data-i18n="contact.option.four">Sponsorluk</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="phone" data-i18n="contact.phone">Telefon</label>
+                <input
+                  id="phone"
+                  type="text"
+                  placeholder="+90 ..."
+                  data-i18n-placeholder="contact.phone.placeholder"
+                />
+              </div>
+            </div>
+
+            <div class="field field-full">
+              <label for="message" data-i18n="contact.message">Mesajınız</label>
+              <textarea
+                id="message"
+                rows="7"
+                placeholder="Mesajınızı buraya yazın..."
+                data-i18n-placeholder="contact.message.placeholder"
+              ></textarea>
+            </div>
+
+            <p id="formStatus" class="form-status"></p>
+
+            <div class="form-actions form-actions-split">
+              <p class="form-note">Form şu an sadece görsel tasarım aşamasındadır.</p>
+              <button type="submit" class="btn btn-primary form-btn" data-i18n="contact.button">
+                Dileği Gönder
+              </button>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
