@@ -21,7 +21,7 @@ if(menuToggle&&navLinks) {
 
   }
 });
-const translations = {
+//const translations = {
   tr: {
     "nav.about": "Hakkında",
     "nav.committees": "Komiteler",
